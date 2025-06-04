@@ -320,7 +320,7 @@ class JsonArray : public Printable {
     JsonArray();
     JsonArray(const String &str);
     JsonArray(const JsonArray &other);
-    JsonArray(std::vector<int> &arr);
+    JsonArray(std::vector<int32_t> &arr);
     explicit JsonArray(const char *str);
 
     JsonArray &push(const Element &value);
